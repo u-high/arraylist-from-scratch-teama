@@ -1,6 +1,6 @@
 language: java
 before_install:
-  - cd java
+- unset _JAVA_OPTIONS
 jdk:
   - oraclejdk8
 
